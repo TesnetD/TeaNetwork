@@ -86,7 +86,7 @@ async function autoTransaction() {
     console.log(chalk.greenBright("\n🎉 All transactions completed! Next run in 24 hours.\n"));
 
     // Restart the script after 24 hours (86400000 ms)
-    setTimeout(startProcess, 10000);
+    setTimeout(startProcess, 86400000);
 }
 
 async function startProcess() {
